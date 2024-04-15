@@ -1,0 +1,72 @@
+.contact{
+    width: 1281px;
+    height: 212px;
+    background-color: #f6702e;
+    display: flex;
+    float: right;
+}
+.info{
+   margin-right: 10px;
+;
+}
+.info p{
+    color: aliceblue;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info h4{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact > .info{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.pt-3  button {
+    float: right;
+    margin-top: -46px;
+    background-image: none;
+    background-color: #ef5350;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 -2px 0 0 rgba(0,0,0,.5) inset;
+    color: #FFF;.pt-3 
+    text-shadow: none;
+    transition: background 0.2s ease-out 0s;
+    height: 30px;
+    width: 80px;
+    margin-right: 20px;
+}
+.pt-3 {
+    background-color: #f6702e;
+    position: relative;
+}
+.h2{
+    margin-left: 20px;
+    color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ngonngu{
+    float: right;
+    position: absolute;
+    top: 27px;
+    right: 150px;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 400;
+}
+.ngonngu:hover+.boxhover{
+   display: block;
+}
+.boxhover{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    position: absolute;
+    top: 50px;
+    right: 120px;
+    display: none;
+}
+.pt-3{
+    position: relative;
+}
